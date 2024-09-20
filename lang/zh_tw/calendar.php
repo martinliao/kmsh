@@ -1,0 +1,275 @@
+<?php
+// This file is part of Moodle - https://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'calendar', language 'zh_tw', version '3.9'.
+ *
+ * @package     calendar
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['activityevent'] = '活動事件';
+$string['addevent'] = '添加事件';
+$string['advancedoptions'] = '進階選項';
+$string['allday'] = '全部';
+$string['annually'] = '每年的';
+$string['calendar'] = '行事曆';
+$string['calendarheading'] = '{$a} 行事曆';
+$string['calendarpreferences'] = '行事曆偏好';
+$string['calendartypes'] = '行事曆類型';
+$string['calendarurl'] = '行事曆網址: {$a}';
+$string['category'] = '類別';
+$string['categoryevent'] = '類目事件';
+$string['categoryevents'] = '類目事件';
+$string['clickhide'] = '點選可隱藏';
+$string['clickshow'] = '點選可顯示';
+$string['colactions'] = '動作';
+$string['colcalendar'] = '行事曆';
+$string['collastupdated'] = '最近更新';
+$string['colpoll'] = '更新';
+$string['commontasks'] = '選項';
+$string['confirmeventdelete'] = '您確定要刪除這個"{$a}" 事件嗎？';
+$string['confirmeventseriesdelete'] = '這 "{$a->name}"事件是一系列事件中的一部分。你只要刪除這一事件，或是在這系列中的全部{$a->count} 個事件？';
+$string['course'] = '課程';
+$string['coursecalendar'] = '{$a}行事曆';
+$string['courseevent'] = '課程事件';
+$string['courseevents'] = '課程事件';
+$string['courses'] = '課程';
+$string['customexport'] = '自訂的範圍 ({$a->timestart} - {$a->timeend})';
+$string['daily'] = '每日的';
+$string['day'] = '天';
+$string['daynext'] = '下一天';
+$string['dayprev'] = '前一天';
+$string['dayviewfor'] = '要檢視的日期：';
+$string['dayviewtitle'] = '日行事曆: {$a}';
+$string['daywithnoevents'] = '這一天沒有任何事件';
+$string['default'] = '預設';
+$string['deleteallevents'] = '刪除所有事件';
+$string['deleteevent'] = '刪除事件';
+$string['deleteevents'] = '刪除事件';
+$string['deleteoneevent'] = '刪除這一事件';
+$string['detailedmonthviewfor'] = '詳細的月曆檢視：';
+$string['detailedmonthviewtitle'] = '詳細的月行事曆: {$a}';
+$string['durationminutes'] = '持續多少分鐘';
+$string['durationnone'] = '不持續';
+$string['durationuntil'] = '持續直到';
+$string['editevent'] = '修改事件';
+$string['erroraddingevent'] = '無法添加事件';
+$string['errorbadsubscription'] = '沒有發現行事曆的訂閱';
+$string['errorbeforecoursestart'] = '無法在課程開始前設定事件';
+$string['errorcannotimport'] = '在這個時候你不能設定訂閱行事曆';
+$string['errorhasuntilandcount'] = 'UNTIL 或 COUNT 兩者任一個可以出現在重複規則中，但是 UNTIL 和 COUNT 絕不可以同時出現在同一個重複規則中。';
+$string['errorinvalidbydayprefix'] = 'BYDAY規則之前的整數值只能出現在MONTHLY或YEARLY重複規則中。';
+$string['errorinvalidbydaysuffix'] = '在BYDAY規則中的星期幾部分，其有效值為MO，TU，WE，TH，FR，SA 和 SU';
+$string['errorinvalidbyhour'] = '"依據小時"規則的有效數值是 0 到 23。';
+$string['errorinvalidbyminute'] = '"依據分鐘"規則的有效數值是 0 到 59。';
+$string['errorinvalidbymonth'] = '"依據月份"規則的有效數值是 1 到 12。';
+$string['errorinvalidbymonthday'] = '在BYMONTHDAY規則中的有效值為 1到31或 -31到-1。';
+$string['errorinvalidbysecond'] = '"依據秒"規則的有效數值是 0 到 59。';
+$string['errorinvalidbysetpos'] = '在BYSETPOS規則的有效值為 1到366 或 -366到-1。';
+$string['errorinvalidbyweekno'] = '"依據週次"規則的有效數值是 1 到 53 或 -53 到 -1。';
+$string['errorinvalidbyyearday'] = '"依據年日"規則的有效數值是 1 到 366 或 -366 到 -1。';
+$string['errorinvaliddate'] = '錯誤的日期';
+$string['errorinvalidicalurl'] = '給予的iCal網址是無效的';
+$string['errorinvalidinterval'] = '"期間"規則的有效數值必須是正整數';
+$string['errorinvalidminutes'] = '以1到999之間的數字指定持續的分鐘數';
+$string['errorinvalidrepeats'] = '以1到99之間的數字指定事件的數目';
+$string['errormustbeusedwithotherbyrule'] = '這 BYSETPOS 規則只能與另一個 BYxxx 規則一起使用。';
+$string['errornodescription'] = '必須填寫說明';
+$string['errornoeventname'] = '必須填寫名稱';
+$string['errornonyearlyfreqwithbyweekno'] = '這個 BYWEEKNO 規則只有在 YEARLY 規則中有效。';
+$string['errorrequiredurlorfile'] = '要匯入一個行事曆，若不是輸入網址，就是要一個檔案';
+$string['errorrrule'] = '這個要重複的規則似乎不正確';
+$string['errorrruleday'] = '這重複規則包含無效的日期參數';
+$string['errorrrulefreq'] = '這重複規則包含無效的頻率參數';
+$string['eventcalendareventcreated'] = '建立行事曆事件。';
+$string['eventcalendareventdeleted'] = '刪除行事曆事件。';
+$string['eventcalendareventupdated'] = '更新行事曆事件。';
+$string['eventdate'] = '日期';
+$string['eventdescription'] = '說明';
+$string['eventduration'] = '持續時間';
+$string['eventendtime'] = '結束時間';
+$string['eventendtimewrapped'] = '{$a} (結束時間)';
+$string['eventinstanttime'] = '時間';
+$string['eventkind'] = '事件類型';
+$string['eventname'] = '事件標題';
+$string['eventnameandcategory'] = '{$a->category}: {$a->name}';
+$string['eventnameandcourse'] = '{$a->course}: {$a->name}';
+$string['eventnone'] = '沒事件';
+$string['eventrepeat'] = '重複';
+$string['events'] = '事件';
+$string['eventsall'] = '所有事件';
+$string['eventsdeleted'] = '已刪除的事件';
+$string['eventsfor'] = '{$a}  事件';
+$string['eventsimported'] = '匯入的事件: {$a}';
+$string['eventskey'] = '事件關鍵字';
+$string['eventsource'] = '事件來源';
+$string['eventspersonal'] = '我的私人事件';
+$string['eventsrelatedtocourses'] = '課程相關事件';
+$string['eventsrelatedtogroups'] = '跟群組相關的事件';
+$string['eventstarttime'] = '開始時間';
+$string['eventstoexport'] = '要匯出的事件';
+$string['eventsubscriptioncreated'] = '行事曆訂閱已建立';
+$string['eventsubscriptiondeleted'] = '行事曆訂閱已刪除';
+$string['eventsubscriptioneditwarning'] = '此日曆活動是訂閱的一部分。如果訂閱被刪除，您對此事件所做的任何更改都將丟失。';
+$string['eventsubscriptionupdated'] = '行事曆訂閱已更新';
+$string['eventsupdated'] = '事件已經更新：{$a}';
+$string['eventtime'] = '時間';
+$string['eventtype'] = '事件類型';
+$string['eventtypecategory'] = '類目';
+$string['eventtypecourse'] = '課程';
+$string['eventtypeglobal'] = '全網站';
+$string['eventtypegroup'] = '群組';
+$string['eventtypemodule'] = '模組';
+$string['eventtypeother'] = '其他';
+$string['eventtypesite'] = '全網站';
+$string['eventtypeuser'] = '用戶';
+$string['eventview'] = '事件細節';
+$string['expired'] = '到期';
+$string['explain_site_timeformat'] = '您可以選擇在整個網站使用12或24小時制的時間，如果您選擇預設，時間格式會自動根據網站的設定而調整，但這個設定會被用戶偏好所取代。';
+$string['export'] = '匯出';
+$string['exportbutton'] = '匯出';
+$string['exportcalendar'] = '匯出行事曆';
+$string['exporthelp'] = '我要如何從一行事曆應用程式(Google/Outlook/Other)訂閱這一行事曆？';
+$string['forcecalendartype'] = '強制同步行事曆';
+$string['fri'] = '五';
+$string['friday'] = '星期五';
+$string['generateurlbutton'] = '取得行事曆網址';
+$string['global'] = '全站';
+$string['globalevent'] = '全站事件';
+$string['globalevents'] = '全站事件';
+$string['gotoactivity'] = '到活動';
+$string['gotocalendar'] = '進入行事曆';
+$string['group'] = '群組';
+$string['groupevent'] = '群組事件';
+$string['groupevents'] = '群組事件';
+$string['hideeventtype'] = '隱藏 {$a} 事件';
+$string['hourly'] = '每小時的';
+$string['importcalendar'] = '匯入行事曆';
+$string['importcalendarfrom'] = '匯入行事曆從';
+$string['importcalendarheading'] = '匯入行事曆....';
+$string['importfromfile'] = '行事曆檔案(.ics)';
+$string['importfrominstructions'] = '請提供一個到遠端行事曆的網址 ，或上傳一個檔案';
+$string['importfromurl'] = '行事曆網址';
+$string['invalideventtype'] = '你所選的事件類型是無效的';
+$string['invalidtimedurationminutes'] = '您輸入的持續時間分鐘數是無效的。請輸入大於0的數字，或者選擇不持續。';
+$string['invalidtimedurationuntil'] = '您為"持續直到"選擇的時間和日期早於事件的開始時間。請在繼續處理前，修正這個問題。';
+$string['iwanttoexport'] = '匯出';
+$string['less'] = '較少';
+$string['managesubscriptions'] = '管理訂閱';
+$string['manyevents'] = '{$a} 事件';
+$string['mon'] = '一';
+$string['monday'] = '星期一';
+$string['monthly'] = '每月的';
+$string['monthlyview'] = '逐月檢視';
+$string['monthnext'] = '下個月';
+$string['monthprev'] = '前一個月';
+$string['monththis'] = '這個月';
+$string['more'] = '更多';
+$string['namewithsource'] = '{$a->name}({$a->source})';
+$string['never'] = '從不';
+$string['newevent'] = '新事件';
+$string['nocalendarsubscriptions'] = '你沒有訂閱行事曆';
+$string['notitle'] = '無標題';
+$string['noupcomingevents'] = '目前沒有即將到來的事件';
+$string['oneevent'] = '一個事件';
+$string['pollinterval'] = '更新的間隔時間';
+$string['pollinterval_help'] = '你希望行事曆每隔多久就更新一次新事件';
+$string['pref_lookahead'] = '顯示幾日內即將來臨的事件';
+$string['pref_lookahead_help'] = '設定在未來多少天之內會發生的事件會被顯示為"即將發生的事件"。此天數以後發生的事件不會被顯示出來。請注意，這<strong>不保證</strong>所有在此時間之內開始的事件都會被顯示出來；如果有太多(超過"最多顯示幾件即將來臨的事件"設定)事件，那麼離現在最遠的事件將不會被顯示出來。';
+$string['pref_maxevents'] = '最多顯示幾件即將來臨的事件';
+$string['pref_maxevents_help'] = '這裡設定可以顯示的即將來臨的事件的最大數量。如果您設定了一個比較大的數字，那麼可能顯示出來的事件會占用您螢幕很大的空間。';
+$string['pref_persistflt'] = '記住過濾器的設定';
+$string['pref_persistflt_help'] = '如果啟用，Moodle會儲存您最後一次使用的事件過濾設定，並且在您每次登入時自動套用。';
+$string['pref_startwday'] = '每星期的第一天是:';
+$string['pref_startwday_help'] = '行事曆的星期幾的排列，將從您選擇的那天開始。(通常為星期日或星期一)';
+$string['pref_timeformat'] = '時間顯示格式';
+$string['pref_timeformat_help'] = '您可以選擇使用12小時或24小時格式。如果您選擇"預設"，系統將根據您所使用的語言自動為您選擇時間格式。';
+$string['preferences'] = '偏好';
+$string['preferences_available'] = '您個人偏好設定';
+$string['preferredcalendar'] = '偏好的行事曆';
+$string['privacy:metadata:calendar:event'] = '行事曆組件可以在核心子系統中存儲用戶的行事曆事件細節';
+$string['privacy:metadata:calendar:event:description'] = '行事曆事件的描述';
+$string['privacy:metadata:calendar:event:eventtype'] = '行事曆事件的事件類型';
+$string['privacy:metadata:calendar:event:name'] = '行事曆事件的名稱';
+$string['privacy:metadata:calendar:event:timeduration'] = '日曆事件的持續時間';
+$string['privacy:metadata:calendar:event:timestart'] = '日曆事件的開始時間';
+$string['privacy:metadata:calendar:event_subscriptions'] = '行事曆組件可以在核心子系統中存儲用戶的行事曆訂閱細節';
+$string['privacy:metadata:calendar:event_subscriptions:eventtype'] = '行事曆訂閱的事件類型';
+$string['privacy:metadata:calendar:event_subscriptions:name'] = '行事曆訂閱的名稱';
+$string['privacy:metadata:calendar:event_subscriptions:url'] = '行事曆訂閱的網址';
+$string['privacy:metadata:calendar:preferences:calendar_savedflt'] = '配置的行事曆事件類型顯示用戶的偏好';
+$string['recentupcoming'] = '今天到未來六十天';
+$string['repeatedevents'] = '重覆事件';
+$string['repeateditall'] = '也套用到在此系列事件中的其他{$a}個事件';
+$string['repeateditthis'] = '僅將變動應用於此事件';
+$string['repeatevent'] = '重覆此事件';
+$string['repeatnone'] = '無重覆';
+$string['repeatweeksl'] = '每週重覆，一起建立';
+$string['repeatweeksr'] = '事件';
+$string['sat'] = '六';
+$string['saturday'] = '星期六';
+$string['showeventtype'] = '顯示{$a}個事件';
+$string['shown'] = '已顯示';
+$string['site'] = '網站';
+$string['siteevents'] = '網站事件';
+$string['spanningevents'] = '事件進行中';
+$string['subscriptionname'] = '行事曆名稱';
+$string['subscriptionremoved'] = '行事曆訂閱{$a}已經移除';
+$string['subscriptions'] = '訂閱';
+$string['subscriptionsource'] = '事件來源：{$a}';
+$string['subscriptionupdated'] = '行事曆訂閱{$a}已經更新';
+$string['sun'] = '日';
+$string['sunday'] = '星期日';
+$string['thu'] = '四';
+$string['thursday'] = '星期四';
+$string['timeformat_12'] = '12時制(上午/下午)';
+$string['timeformat_24'] = '24時制';
+$string['timeperiod'] = '起訖時間';
+$string['today'] = '今天';
+$string['todayplustitle'] = '今天{$a}';
+$string['tomorrow'] = '明天';
+$string['tt_deleteevent'] = '刪除事件';
+$string['tt_editevent'] = '編輯事件';
+$string['tue'] = '二';
+$string['tuesday'] = '星期二';
+$string['typecategory'] = '類別事件';
+$string['typeclose'] = '已關閉事件';
+$string['typecourse'] = '課程事件';
+$string['typedue'] = '到期事件';
+$string['typegradingdue'] = '評分到期事件';
+$string['typegroup'] = '團體事件';
+$string['typeopen'] = '開放中事件';
+$string['typesite'] = '網站事件';
+$string['typeuser'] = '使用者事件';
+$string['upcomingevents'] = '未來事件';
+$string['upcomingeventsfor'] = '未來事件：';
+$string['urlforical'] = '用來匯出iCalendar 的網址，可用來訂閱行事曆';
+$string['user'] = '用戶';
+$string['userevent'] = '用戶事件';
+$string['userevents'] = '用戶事件';
+$string['wed'] = '三';
+$string['wednesday'] = '星期三';
+$string['weekly'] = '每週';
+$string['weeknext'] = '下週';
+$string['weekthis'] = '本週';
+$string['when'] = '何時';
+$string['yesterday'] = '昨日';
+$string['youcandeleteallrepeats'] = '這個事件是系列重複事件中的一部分。您可以只刪除這個事件，也可以一次刪除全部{$a}個事件。';

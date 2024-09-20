@@ -1,0 +1,16 @@
+{
+  "moodle-clickap_program-management": {
+    "requires": [
+        "base",
+        "node",
+        "io-base",
+        "moodle-core-notification-exception",
+        "json-parse",
+        "dd-constrain",
+        "dd-proxy",
+        "dd-drop",
+        "dd-delegate",
+        "node-event-delegate"
+    ]
+  }
+}

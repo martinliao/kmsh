@@ -1,0 +1,16 @@
+.path-admin-clickap-program .addcourse {
+    float: unset;
+    text-align:right;
+}
+
+.path-admin-clickap-program .addcourse input[type="submit"] {
+
+}
+
+.page-admin-clickap-program-category-management .bulk-actions {
+    margin: 1rem;    
+}
+
+.path-admin-clickap-program img {
+    max-width:150px;
+}

@@ -1,0 +1,4 @@
+﻿auth,username,password,firstname,lastname,idnumber,email,department,profile_field_DeptName,profile_field_InstitutionName,profile_field_ArrivalDate,profile_field_Supervisor
+manual,lily,Kmsh@123,詹莉莉,新進人員,A223456789,lily@sample.com,O1,外科,醫生,20240820,amy
+manual,kelly,Kmsh@123,林凱莉,新進人員,A223456789,kelly@sample.com,O1,外科,醫生,20240820,amy
+manual,jerry,Kmsh@123,張傑瑞,新進人員,A223456789,jerry@sample.com,O1,外科,醫生,20240820,

@@ -1,0 +1,14 @@
+{
+  "name": "moodle-clickap_program-management",
+  "builds": {
+    "moodle-clickap_program-management": {
+      "jsfiles": [
+        "console.js",
+        "dd.js",
+        "item.js",
+        "category.js",
+        "course.js"
+      ]
+    }
+  }
+}

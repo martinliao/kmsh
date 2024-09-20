@@ -1,0 +1,7 @@
+.block_sharing_region li { clear: both; }
+.block_sharing_region li .column { width: 100%; }
+.block_sharing_region li .buttons { float: right; margin: 0; }
+.dir-rtl .block_sharing_region li .buttons { float: left; }
+.block_sharing_region li .buttons a img{ vertical-align: text-bottom;}
+.block_sharing_region .footer { margin-top: 1em; }
+.block_sharing_region .section_add_menus noscript div { display: inline;}

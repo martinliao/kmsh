@@ -1,0 +1,17 @@
+.block_uploaddoc .uploadbtn {
+    text-align: center !important;
+}
+
+.block_uploaddoc .footer {
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+.block_uploaddoc .content a {
+    font-size: 1.2em;
+}
+
+.block_uploaddoc .content a:hover, a:focus {
+    color:#667eda !important;
+    text-decoration: underline !important;
+}

@@ -1,0 +1,17 @@
+
+.coursebox .content .action .box {
+    margin-top: 1% !important;
+}
+
+.coursebox .content .action .form-item, .mform .fitem {
+    margin-bottom: 1% !important;
+}
+/*
+.coursebox .content .action .mform .fitem div.fitemtitle {
+    width:150px;
+}
+
+.coursebox .content .action .mform .fitem .felement{
+    margin-left: 40% !important; 
+}
+*/

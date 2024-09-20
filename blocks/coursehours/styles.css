@@ -1,0 +1,11 @@
+
+.block_coursehours table.generaltable .permanent-row ,
+.block_coursehours table.generaltable .permanent-row {
+    font-weight: bold;
+    background-color: #ffffe0;
+}
+
+.block_coursehours table.generaltable .mode-row {
+    font-weight: bold;
+    background-color: #fff2de;
+}

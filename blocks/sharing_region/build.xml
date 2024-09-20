@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="block_sharing_region" default="block_sharing_region">
+    <property override="true" name="pluginpath" value="blocks/sharing_region"/>
+    <property override="true" name="plugindir"  value="${project.basedir}/${pluginpath}" />
+    <property override="true" name="cypherdir"  value="${encodeddir}/${pluginpath}"/>
+    
+    <exec command="find ${plugindir} -name '*.php' | wc -l " outputProperty="srcPhps" />
+    <mkdir dir="${encodeddir}/blocks" /> 
+    <ioncubeencoder
+        encode="*.php"
+        ignore="*~ ~* *.bak *.tmp .svn/ .*/ build.xml *.txt *.patch readme.txt"
+        copy="version.php lang/*/*.php classes/privacy/provider.php"
+        allowedserver="${ipaddr}"
+
+        fromdir="${pluginpath}"
+        todir="${cypherdir}"
+        phpversion="${phpver}"
+
+        ioncubepath="${ioncubebindir}"
+        targetoption="replace"
+        showcommandline="${showcommandline}" >
+    </ioncubeencoder>
+    <exec command="find ${cypherdir} -name '*.php' | wc -l " outputProperty="encPhps" />
+    <echo msg="PHPfiles count: ${srcPhps}/${encPhps}" />
+    <if>
+        <equals arg1="${srcPhps}" arg2="${encPhps}" />
+    <else>
+        <exec command="diff -rq -x build.xml ${pluginpath} ${cypherdir} | grep ${pluginpath}" passthru="true" />
+    </else>
+    </if>
+    <exec command="if [[ ${srcPhps} != ${encPhps} ]]; then exit -1; fi" checkreturn="true"/>
+</project>
